@@ -1,0 +1,162 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    width: 100%;
+    background: #141311;
+}
+.kata{
+    width: 420px;
+    position: relative;
+    top: 140px;
+    padding: 30px 0 80px;
+}
+.navbar{
+    width: 100%;
+    z-index: 11;
+    opacity: 31%;
+    position: fixed;
+    padding: 0;
+    
+}
+
+@media(max-width: 992px){
+    .kata {
+        padding-top: 30px;
+        position: relative;
+        top: 50px;
+        padding: 66px 0 0px;
+    }
+    .enjoy {
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        color: #ffff;
+        letter-spacing: 1.2px;
+    }
+    .cofe {
+        color: #ffff;
+        font-family: 'Righteous', cursive;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    .test {
+        padding: 8px 9px;
+        background: #C99E71;
+        font-size: 10px;
+    }
+}
+
+@media(max-width:767px) {
+    .navbar{
+            display: none;
+  }
+}
+@media(max-width: 576px){
+.kata{
+    padding-top: 30px;
+    position: relative;
+    top: 65px;
+    text-align: center;
+    padding: 30px 0 80px;
+}
+.test {
+    padding: 7px 14px;
+    background: #C99E71;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.row{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.enjoy {
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
+    color: #ffff;
+}
+}
+
+@media(max-width: 320px){
+    .kata {
+        width: 300px;
+    }
+    .cofe {
+        color: #ffff;
+        font-family: 'Righteous', cursive;
+        font-size: 8px;
+        letter-spacing: 1px;
+        padding-top: 6px;
+    }
+    .enjoy {
+        font-family: 'Righteous', cursive;
+        font-size: 14px;
+        color: #ffff;
+    }
+    .test {
+        padding: 4px 6px;
+        background: #C99E71;
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+        header{
+        width: 100%;
+        background: #141311;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .nav-link{
+        font-size: 10px;
+    }
+    .navbar-toggler{
+        background: transparent !important;
+        padding: 1px 1px !important;
+        text-align: center;
+    }
+ 
+}
+
+.navbar-toggler{
+    background: grey !important;
+    padding: 1px 5px;
+    text-align: center;
+}
+.nav-item1{
+    color: white ;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+ul{
+    margin-bottom: 0;
+}
+.nav-lin a{
+        color: white ;
+        text-decoration: none;
+        transition: .5s;
+        margin-left: 30px;
+}
+.nav-item a:hover{
+    color: rgba(201, 158, 113, 1) !important;
+}
+
+.img{
+    width: 60px;
+}
+.me-auto {
+    color: white;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+}
+.navbar-toggler {
+    background: white;
+}

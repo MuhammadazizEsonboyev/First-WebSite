@@ -1,0 +1,79 @@
+section{
+ width: 100%;
+  background: url(../src/components/Navbar/img/Rectangle\ 12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.katta1{
+  width: 350px;
+  /* height: 188px; */
+  margin-left: 75px;
+  margin-top: 147px;
+}
+
+.test{
+  margin-bottom: 166px;
+  color: white;
+  border: none;
+}
+
+.cofe{
+  color: #ffff;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+
+.enjoy{
+  font-family: 'Righteous', cursive;
+  font-size: 38px;
+  color: #ffff;
+}
+
+.test{
+  padding: 14px 24px;
+  background: #C99E71;
+  
+}
+
+@media(max-width: 576px){
+  .cofe {
+    color: #ffff;
+    font-family: 'Righteous', cursive;
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 320px){
+  .enjoy {
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    color: #ffff;
+    padding-top: 20px;
+
+     }
+  .kata {
+    height: 221px;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  .enjoy {
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    color: #ffff;
+  }
+  .test {
+    padding: 6px 6px;
+    background: #C99E71;
+    font-size: 12px;
+  }
+
+  .img {
+    width: 10px;
+}
+}
+
+
+
